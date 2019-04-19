@@ -334,14 +334,30 @@ template {
 /* ================================
         Header css
 ================================ */
+#header {
+  background-color: midnightblue;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". header ."; }
+  #header > div {
+    grid-area: header; }
+
 /* ================================
         Footer css
 ================================ */
+#footer {
+  background-color: lightcoral;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". footer ."; }
+  #footer > div {
+    grid-area: footer; }
+
 /* =============
     Hero
 ============= */
 #hero {
-  background-color: purple;
+  background-color: slateblue;
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". hero ."; }
@@ -352,7 +368,7 @@ template {
     Ingredients
 ============= */
 #ingredients {
-  background-color: green;
+  background-color: mediumpurple;
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". ingredients ."; }
@@ -363,9 +379,31 @@ template {
     Mobile
 ============= */
 #mobile {
-  background-color: orange;
+  background-color: darkslateblue;
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". mobile ."; }
   #mobile > div {
     grid-area: mobile; }
+
+/* =============
+    About
+============= */
+#about {
+  background-color: mediumorchid;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". about ."; }
+  #about > div {
+    grid-area: about; }
+
+/* =============
+    Pricing
+============= */
+#pricing {
+  background-color: palevioletred;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". pricing ."; }
+  #pricing > div {
+    grid-area: pricing; }
