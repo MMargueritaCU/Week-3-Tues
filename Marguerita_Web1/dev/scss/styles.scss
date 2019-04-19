@@ -5,8 +5,8 @@
 @import "helpers/_variables";
 
 // Base Styles
-@import "base/_base";
 @import "base/_normalize";
+@import "base/_base";
 @import "base/_typography";
 
 // Components Styles
@@ -17,3 +17,8 @@
 // Layout Styles
 @import "layout/_header";
 @import "layout/_footer";
+
+// Sections Styles
+@import "sections/_hero";
+@import "sections/_ingredients";
+@import "sections/_mobile";

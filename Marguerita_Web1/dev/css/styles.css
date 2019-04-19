@@ -9,9 +9,6 @@ html {
         Variables css
 ================================ */
 /* ================================
-        Base css
-================================ */
-/* ================================
         Normalize css
 ================================ */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -320,6 +317,9 @@ template {
   display: none; }
 
 /* ================================
+        Base css
+================================ */
+/* ================================
         Typography css
 ================================ */
 /* ================================
@@ -337,3 +337,35 @@ template {
 /* ================================
         Footer css
 ================================ */
+/* =============
+    Hero
+============= */
+#hero {
+  background-color: purple;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". hero ."; }
+  #hero > div {
+    grid-area: hero; }
+
+/* =============
+    Ingredients
+============= */
+#ingredients {
+  background-color: green;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". ingredients ."; }
+  #ingredients > div {
+    grid-area: ingredients; }
+
+/* =============
+    Mobile
+============= */
+#mobile {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". mobile ."; }
+  #mobile > div {
+    grid-area: mobile; }
